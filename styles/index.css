@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#hero {
+    background: url('/masthead_2017@2x.jpg') no-repeat;
+    background-size: cover;
+    float: left;
+    width: 100%;
+    min-height: 1000px;
+}
+
+.container {
+    clear: both;
+    overflow: auto;
+}
